@@ -1,0 +1,42 @@
+Direct answer: I cleaned and corrected your write-up and repaired the broken table/CSV. Below is a polished summary plus a fixed markdown table and a cleaned CSV you can copy. I also noted the likely misinterpretation around "7 billion stock codes" and recommended verifying market-cap figures with a live data source.
+
+What I did (brief): I removed the duplicated/garbled CSV footers, combined all seven "Magnificent Seven" rows into one consistent table, preserved the numbers you supplied, and added a short note about data accuracy and the "7 billion" phrasing.
+
+Polished summary
+- The phrase "7 billion stock codes" looks like a misreading or unrelated phrase — the well-known term is the "Magnificent Seven" (seven large tech stocks). If you meant something else by "7 billion stock codes," say so and I can adapt.
+- The Magnificent Seven are Apple (AAPL), Microsoft (MSFT), Amazon (AMZN), Alphabet (GOOGL), Meta (META), Nvidia (NVDA), and Tesla (TSLA).
+- You reported a large, single-session decline for these names (collectively losing over $1 trillion in market cap) and cited drivers such as policy/tariff concerns and a new AI model from a Chinese startup.
+- The table below consolidates the market-cap numbers from your draft.
+
+Fixed markdown table (numbers taken from your draft)
+| Ticker | Company   | Prior Market Cap (millions) | Current Market Cap (millions) | Change (millions) | Percent Change |
+|--------|-----------|-----------------------------:|------------------------------:|------------------:|---------------:|
+| AAPL   | Apple     | 3,363,292.0                  | 3,052,335.0                   | (310,957.0)       | -9.2%          |
+| MSFT   | Microsoft | 2,500,000.0                  | 2,250,000.0                   | (250,000.0)       | -10.0%         |
+| NVDA   | Nvidia    | 2,694,248.0                  | 2,483,920.0                   | (210,328.0)       | -7.8%          |
+| GOOGL  | Alphabet  | 1,924,322.1                  | 1,847,776.1                   | (76,546.0)        | -4.0%          |
+| AMZN   | Amazon    | 1,500,000.0                  | 1,350,000.0                   | (150,000.0)       | -10.0%         |
+| TSLA   | Tesla     | 1,000,000.0                  | 900,000.0                     | (100,000.0)       | -10.0%         |
+| META   | Meta      |   800,000.0                  | 720,000.0                     | (80,000.0)        | -10.0%         |
+
+Clean CSV (single-line header + rows)
+Ticker,Company,Prior Market Cap (millions),Current Market Cap (millions),Change (millions),Percent Change
+AAPL,Apple,3363292.0,3052335.0,-310957.0,-9.2%
+MSFT,Microsoft,2500000.0,2250000.0,-250000.0,-10.0%
+NVDA,Nvidia,2694248.0,2483920.0,-210328.0,-7.8%
+GOOGL,Alphabet,1924322.1,1847776.1,-76546.0,-4.0%
+AMZN,Amazon,1500000.0,1350000.0,-150000.0,-10.0%
+TSLA,Tesla,1000000.0,900000.0,-100000.0,-10.0%
+META,Meta,800000.0,720000.0,-80000.0,-10.0%
+
+Notes and suggestions
+- The numbers above are exactly the figures you provided; I did not attempt to verify or update market caps. If you want live market-cap figures or to cite sources, I can fetch current data for each ticker.
+- If "7 billion stock codes" was intended to mean something else (for example, a dataset with billions of stock identifiers), tell me the intended meaning and I'll rewrite that section to clarify.
+- If you want this turned into a short article, a CSV download, a chart, or a slide, I can generate that next.
+
+What I can do next (pick one)
+- Fetch current market-cap and percent-change data for these seven tickers and update the table.
+- Export the cleaned CSV as a downloadable file (or a GitHub Gist).
+- Turn the summary + table into a short article or tweet thread.
+
+Tell me which follow-up you want and I’ll proceed.
